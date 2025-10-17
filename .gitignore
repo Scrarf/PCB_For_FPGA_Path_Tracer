@@ -1,0 +1,6 @@
+*.kicad_sch-bak
+fp-info-cache
+\#auto_saved_files\#
+lib/
+fpga_board-backups/
+*.lck
