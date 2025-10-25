@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LFE5U-45F-6BG256C")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_LFE5U-45F-7BG256I/KiCADv6/2025-10-20_14-52-16.kicad_sym")(options "")(descr ""))
+  (lib (name "K4B4G1646E-BCMA")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_K4B4G1646E-BCMA/KiCADv6/2025-08-11_17-50-08.kicad_sym")(options "")(descr ""))
+  (lib (name "CYUSB3014-BZXC")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_CYUSB3014-BZXC/KiCADv6/2025-08-11_18-19-38.kicad_sym")(options "")(descr ""))
+)
