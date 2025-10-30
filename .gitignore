@@ -3,3 +3,4 @@ fp-info-cache
 \#auto_saved_files\#
 fpga_board-backups/
 *.lck
+_autosave*
