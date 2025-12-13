@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A5")
+	(title_block
+		(title "FPGA_board")
+		(date "2025-12-14")
+		(company "Scrarf")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
