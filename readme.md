@@ -4,9 +4,6 @@ PCB for [FPGA\_Path\_tracer](https://github.com/Scrarf/FPGA_Path_Tracer).
 
 # Schematic
 
-<<<<<<< Updated upstream
-![schematic](docs/schematic/fpga_board.svg)
-=======
 ![schematic](docs/schematic/fpga_board.svg)
 
 # Layout (WIP)
