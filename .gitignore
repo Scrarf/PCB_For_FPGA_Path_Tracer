@@ -4,3 +4,5 @@ fp-info-cache
 fpga_board-backups/
 *.lck
 _autosave*
+*.swp
+*.blend1

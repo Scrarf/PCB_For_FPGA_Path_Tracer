@@ -801,7 +801,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "EMS/fpga_board.glb",
       "svg": "",
       "vrml": ""
     },
