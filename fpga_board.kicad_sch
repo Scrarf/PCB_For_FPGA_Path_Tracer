@@ -12675,6 +12675,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 194 194 1)
 			)
 		)
 		(uuid "09dbd346-aa20-4d6a-83f4-e9d398250e52")
@@ -12740,6 +12741,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 194 194 1)
 			)
 		)
 		(uuid "221a0f09-0275-46e7-bed4-b8d9c48fead3")
@@ -12902,6 +12904,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 194 194 1)
 			)
 		)
 		(uuid "6e34c004-f2c0-4797-8d50-d3aed864ca6b")
@@ -13109,6 +13112,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 194 194 1)
 			)
 		)
 		(uuid "e9408a22-b9ee-4d8e-a711-1c421a85fb45")
@@ -13119,6 +13123,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 194 194 1)
 			)
 		)
 		(uuid "f28d06d3-e6ce-480f-8d33-8cf12bc5095d")
