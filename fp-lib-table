@@ -5,4 +5,5 @@
   (lib (name "USB-TYPE-C")(type "KiCad")(uri "${KIPRJMOD}/lib/LCSC/usb_type_c.pretty")(options "")(descr ""))
   (lib (name "BUTTON")(type "KiCad")(uri "${KIPRJMOD}/lib/LCSC/button.pretty")(options "")(descr ""))
   (lib (name "PIN-HEADER")(type "KiCad")(uri "${KIPRJMOD}/lib/LCSC/pin_header.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/lib/T_junction/Library.pretty")(options "")(descr ""))
 )
