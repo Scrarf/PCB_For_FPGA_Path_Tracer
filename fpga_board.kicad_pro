@@ -512,9 +512,9 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "FIFO_CTRL",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(180, 119, 17)",
         "priority": 1,
-        "schematic_color": "rgb(60, 180, 85)",
+        "schematic_color": "rgb(180, 119, 17)",
         "track_width": 0.17,
         "via_diameter": 0.4,
         "via_drill": 0.2,
@@ -529,7 +529,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "FIFO_DQ",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(205, 200, 61)",
         "priority": 2,
         "schematic_color": "rgb(205, 200, 61)",
         "track_width": 0.17,
@@ -546,7 +546,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 229, 191)",
         "priority": 3,
         "schematic_color": "rgb(255, 229, 191)",
         "track_width": 0.17,
@@ -794,12 +794,12 @@
         "pattern": "DM7"
       },
       {
-        "netclass": "FIFO_DQ",
-        "pattern": "FIFO_DQ*"
-      },
-      {
         "netclass": "FIFO_CTRL",
         "pattern": "FIFO.*"
+      },
+      {
+        "netclass": "FIFO_DQ",
+        "pattern": "FIFO_DQ*"
       },
       {
         "netclass": "Default",
@@ -808,6 +808,10 @@
       {
         "netclass": "ACC",
         "pattern": "ACC*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "SPI*"
       }
     ]
   },
