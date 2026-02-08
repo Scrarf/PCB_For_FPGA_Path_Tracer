@@ -12680,6 +12680,17 @@
 		)
 		(uuid "09dbd346-aa20-4d6a-83f4-e9d398250e52")
 	)
+	(text "Performing Differential pair\nPolarity inversion"
+		(exclude_from_sim no)
+		(at 503.174 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 194 194 1)
+			)
+		)
+		(uuid "0b58d267-abf1-46d4-84d5-06987b40aaa1")
+	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 92.964 39.624 0)
@@ -12986,6 +12997,17 @@
 			)
 		)
 		(uuid "8a99dce0-9d3f-41bf-b524-4aed7f5694ea")
+	)
+	(text "Performing Differential pair\nPolarity inversion"
+		(exclude_from_sim no)
+		(at 623.062 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 194 194 1)
+			)
+		)
+		(uuid "8c41a248-20d5-4f50-8036-e6ce05919577")
 	)
 	(text "DDR3_Memory"
 		(exclude_from_sim no)
@@ -32467,7 +32489,7 @@
 	)
 	(global_label "SS_RX_P"
 		(shape input)
-		(at 523.24 127 180)
+		(at 523.24 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32477,7 +32499,7 @@
 		)
 		(uuid "b3cefcfc-effb-4d59-8efd-967436501ca7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 512.1511 127 0)
+			(at 512.1511 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32621,7 +32643,7 @@
 			)
 		)
 	)
-	(global_label "SS_TX_M"
+	(global_label "SS_TX_N"
 		(shape input)
 		(at 537.21 207.01 180)
 		(fields_autoplaced yes)
@@ -32633,7 +32655,7 @@
 		)
 		(uuid "c1e44aed-58d2-4b13-b925-8c55b44dd964")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 526.2421 207.01 0)
+			(at 526.363 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32865,7 +32887,7 @@
 			)
 		)
 	)
-	(global_label "SS_RX_M"
+	(global_label "SS_RX_N"
 		(shape input)
 		(at 537.21 224.79 180)
 		(fields_autoplaced yes)
@@ -32877,7 +32899,7 @@
 		)
 		(uuid "d95d76ea-8462-497b-ab05-43e66b3f8b62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 525.9397 224.79 0)
+			(at 526.0606 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32933,7 +32955,7 @@
 	)
 	(global_label "SS_TX_P"
 		(shape input)
-		(at 598.17 104.14 0)
+		(at 598.17 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32943,7 +32965,7 @@
 		)
 		(uuid "ddecddff-806b-476e-92c8-edcd7229a04c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 608.9565 104.14 0)
+			(at 608.9565 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32997,9 +33019,9 @@
 			)
 		)
 	)
-	(global_label "SS_TX_M"
+	(global_label "SS_TX_N"
 		(shape input)
-		(at 598.17 99.06 0)
+		(at 598.17 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33009,7 +33031,7 @@
 		)
 		(uuid "e1a30351-95c7-4038-88c8-20dec7402a2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 609.1379 99.06 0)
+			(at 609.017 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33351,9 +33373,9 @@
 			)
 		)
 	)
-	(global_label "SS_RX_M"
+	(global_label "SS_RX_N"
 		(shape input)
-		(at 523.24 124.46 180)
+		(at 523.24 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33363,7 +33385,7 @@
 		)
 		(uuid "ffb1b647-8cd7-4748-8536-74402beeba36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 511.9697 124.46 0)
+			(at 512.0906 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
