@@ -32537,7 +32537,7 @@
 			)
 		)
 	)
-	(global_label "1v35"
+	(global_label "3v3"
 		(shape input)
 		(at 170.18 384.81 180)
 		(fields_autoplaced yes)
@@ -32549,7 +32549,7 @@
 		)
 		(uuid "b60ba5a9-8982-4634-bb2c-f15116e62db2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.5987 384.81 0)
+			(at 163.8082 384.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
