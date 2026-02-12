@@ -13101,7 +13101,7 @@
 		)
 		(uuid "d6292d58-97ec-4139-a4d1-dc59c9dca252")
 	)
-	(text "Power domains:\n- 1v1\n- 1v2\n- 1v35\n- 3v3"
+	(text "Power domains:\n- 1v1\n- 1v2\n- 1v35\n- 2v5\n- 3v3"
 		(exclude_from_sim no)
 		(at 32.004 75.946 0)
 		(effects
@@ -14784,6 +14784,10 @@
 		(uuid "29416651-b9c4-49ff-9d90-3779d18b5b53")
 	)
 	(no_connect
+		(at 598.17 281.94)
+		(uuid "3b1d2164-6662-4fec-a595-a7ac00cdb643")
+	)
+	(no_connect
 		(at 406.4 218.44)
 		(uuid "3bdf828e-abf3-49fd-8ad7-b07c5dc1f2c9")
 	)
@@ -14828,6 +14832,10 @@
 		(uuid "5f5a008d-6c7d-422a-9b43-d6358f9f1de6")
 	)
 	(no_connect
+		(at 525.78 519.43)
+		(uuid "675bbf3f-76cd-43a2-8889-99b9c0f39c98")
+	)
+	(no_connect
 		(at 148.59 476.25)
 		(uuid "6bc97c4a-9f23-4f9a-96b3-ce042dd98988")
 	)
@@ -14848,12 +14856,20 @@
 		(uuid "700c1f07-9309-442a-a393-bf0d6dfa4675")
 	)
 	(no_connect
+		(at 370.84 557.53)
+		(uuid "73b6b8f2-9368-4250-b890-c7f8a562e367")
+	)
+	(no_connect
 		(at 148.59 542.29)
 		(uuid "77a35940-6f91-40f9-91b6-98074977df94")
 	)
 	(no_connect
 		(at 567.69 227.33)
 		(uuid "807a4c7e-60b9-4255-bf74-35b0eb4208aa")
+	)
+	(no_connect
+		(at 370.84 554.99)
+		(uuid "8311a6b7-724f-4016-85c7-5777b50af0fa")
 	)
 	(no_connect
 		(at 759.46 81.28)
@@ -14982,6 +14998,10 @@
 	(no_connect
 		(at 148.59 478.79)
 		(uuid "f34c4ce6-1830-4d28-9f5e-ff3b353b7e18")
+	)
+	(no_connect
+		(at 325.12 554.99)
+		(uuid "f3ee57e2-64b9-4734-abd3-4c3ddc46b48c")
 	)
 	(no_connect
 		(at 148.59 471.17)
@@ -21154,7 +21174,7 @@
 	)
 	(bus
 		(pts
-			(xy 311.15 441.96) (xy 311.15 443.23)
+			(xy 311.15 415.29) (xy 311.15 443.23)
 		)
 		(stroke
 			(width 0)
@@ -25702,6 +25722,16 @@
 		)
 		(uuid "c79d8cc6-b01a-4ed9-8882-3b93983950b7")
 	)
+	(wire
+		(pts
+			(xy 759.46 68.58) (xy 774.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b9a56e-4716-456f-8e49-1bcdcdfc5b16")
+	)
 	(bus
 		(pts
 			(xy 662.94 58.42) (xy 662.94 60.96)
@@ -27591,16 +27621,6 @@
 			(type default)
 		)
 		(uuid "fb102cd9-2f82-4daa-9d64-a814172d8a6e")
-	)
-	(wire
-		(pts
-			(xy 759.46 68.58) (xy 774.7 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb40ce32-7f75-44b5-a2c6-7dead258431f")
 	)
 	(wire
 		(pts
@@ -31004,7 +31024,7 @@
 	)
 	(global_label "ACC{A[0..14], BA[0..2], CK_0_P, CK_0_N, CK_1_P, CK_1_N, CKE, #CAS, #CS, #RAS, #RESET, #WE, ODT}"
 		(shape input)
-		(at 311.15 441.96 180)
+		(at 311.15 415.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -31014,7 +31034,7 @@
 		)
 		(uuid "2a1c5f57-1e7b-492f-aa36-0c544698ffd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.1652 441.96 0)
+			(at 209.1652 415.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
