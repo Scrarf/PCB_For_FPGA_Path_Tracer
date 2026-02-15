@@ -16456,7 +16456,7 @@
 		(layer "F.Cu")
 		(uuid "66f0e0b9-20e1-4d56-8bbf-6617eee29bac")
 		(at 101.75 55.15)
-		(descr "TFBGA-121, 10.0x10.0mm, 121 Ball, 11x11 Layout, 0.8mm Pitch, http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#p495")
+		(descr "TFBGA-121, 10.0x10.0mm, 121 Ball, 11x11 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#p495")
 		(tags "BGA 121 0.8")
 		(property "Reference" "U2"
 			(at 0 -6 0)
@@ -16521,7 +16521,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a8540499-4019-402f-8cb1-574e039ade3d")
+			(uuid "09e5dfd9-5d58-498e-8054-971cbad9b07a")
 		)
 		(fp_line
 			(start -4.11 -5.11)
@@ -16531,7 +16531,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2cff0df2-0461-4618-bce9-6965d72cdf89")
+			(uuid "3b1519cf-2810-4ea3-bbf4-d8ad7a31d352")
 		)
 		(fp_line
 			(start 5.11 -5.11)
@@ -16541,7 +16541,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f425cf95-674e-4682-9bd4-0f405be67a75")
+			(uuid "0082709f-862b-437a-ba84-f87a6ad95a66")
 		)
 		(fp_line
 			(start 5.11 5.11)
@@ -16551,11 +16551,11 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a60712f4-eba1-46ce-8472-da40f4101007")
+			(uuid "124ebc2a-aa0d-4286-a0e9-dd9ba50b73c4")
 		)
 		(fp_poly
 			(pts
-				(xy -5.11 -5.11) (xy -5.61 -5.11) (xy -5.11 -5.61) (xy -5.11 -5.11)
+				(xy -5.11 -5.11) (xy -5.61 -5.11) (xy -5.11 -5.61)
 			)
 			(stroke
 				(width 0.12)
@@ -16563,47 +16563,18 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "1d778139-d775-4c8b-8476-6202f5fa38c9")
+			(uuid "335d5611-3a3e-40c0-91c2-168784c2da2d")
 		)
-		(fp_line
+		(fp_rect
 			(start -6 -6)
-			(end -6 6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1f50b5dc-d11a-4e7c-ac25-e6e897afcbed")
-		)
-		(fp_line
-			(start -6 6)
 			(end 6 6)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
+			(fill no)
 			(layer "F.CrtYd")
-			(uuid "699ac1fd-ba42-4665-b617-4b565ff834b3")
-		)
-		(fp_line
-			(start 6 -6)
-			(end -6 -6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "73b0a82e-3970-4408-a8d9-aa1c61466535")
-		)
-		(fp_line
-			(start 6 6)
-			(end 6 -6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cd8e1d43-31bd-4cb9-b92d-0b6a4598c570")
+			(uuid "57f43fa5-3456-4a26-912f-21e4e3d2d294")
 		)
 		(fp_line
 			(start -5 -4)
@@ -16613,7 +16584,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a7abf822-47b5-43b5-8b2b-5f3e562d537f")
+			(uuid "154c8010-e639-4df4-9b6d-becb7dd56235")
 		)
 		(fp_line
 			(start -5 5)
@@ -16623,7 +16594,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2708cbac-4b3a-4453-9d3c-c83798925cd8")
+			(uuid "49afc81b-9d33-4927-ab15-7c77fe3b2384")
 		)
 		(fp_line
 			(start -4 -5)
@@ -16633,7 +16604,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f6f40582-ca90-4354-9355-4f4727f63e10")
+			(uuid "932cb64e-e69f-4736-a4d9-bed625f3bd23")
 		)
 		(fp_line
 			(start 5 -5)
@@ -16643,7 +16614,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "98070a14-c4d8-4498-872e-67367964ea51")
+			(uuid "a140dc40-9244-4468-92c1-3b541bccd7a3")
 		)
 		(fp_line
 			(start 5 5)
@@ -16653,7 +16624,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "52809716-31d1-413d-9eaf-6b4956076cc0")
+			(uuid "7c955bc8-87e2-454e-9b63-4817381e3640")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -17877,7 +17848,7 @@
 			(uuid "cd0ff55a-a39f-49be-a529-5d898cbba63a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/TFBGA-121_10x10mm_Layout11x11_P0.8mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/TFBGA-121_10x10mm_Layout11x11_P0.8mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
