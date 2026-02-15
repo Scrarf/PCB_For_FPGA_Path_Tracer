@@ -41270,7 +41270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:Micron_FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm"
+		(property "Footprint" "Package_BGA:Micron_FBGA-96_9x14mm_Layout9x16_P0.8mm"
 			(at 450.85 231.14 0)
 			(effects
 				(font
@@ -48771,7 +48771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:Micron_FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm"
+		(property "Footprint" "Package_BGA:Micron_FBGA-96_9x14mm_Layout9x16_P0.8mm"
 			(at 406.4 210.82 0)
 			(effects
 				(font
@@ -51537,7 +51537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:Micron_FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm"
+		(property "Footprint" "Package_BGA:Micron_FBGA-96_9x14mm_Layout9x16_P0.8mm"
 			(at 450.85 92.71 0)
 			(effects
 				(font
@@ -51967,7 +51967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:Micron_FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm"
+		(property "Footprint" "Package_BGA:Micron_FBGA-96_9x14mm_Layout9x16_P0.8mm"
 			(at 406.4 72.39 0)
 			(effects
 				(font
@@ -53489,7 +53489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Micron_FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm"
+		(property "Footprint" "Package_BGA:Micron_FBGA-96_9x14mm_Layout9x16_P0.8mm"
 			(at 284.48 62.23 0)
 			(effects
 				(font
@@ -54385,7 +54385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Micron_FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm"
+		(property "Footprint" "Package_BGA:Micron_FBGA-96_9x14mm_Layout9x16_P0.8mm"
 			(at 284.48 200.66 0)
 			(effects
 				(font
