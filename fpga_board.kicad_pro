@@ -490,6 +490,36 @@
         "wire_width": 4
       },
       {
+        "name": "1v1",
+        "pcb_color": "rgb(124, 41, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "1v2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "1v35",
+        "pcb_color": "rgb(255, 50, 33)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "2v5",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "3v3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "clearance": 0.1,
         "diff_pair_gap": 0.13,
         "diff_pair_width": 0.17,
@@ -497,7 +527,7 @@
         "microvia_drill": 0.1,
         "name": "ACC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 6,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.17,
         "via_diameter": 0.4,
@@ -513,7 +543,7 @@
         "microvia_drill": 0.1,
         "name": "FIFO_CTRL",
         "pcb_color": "rgb(180, 119, 17)",
-        "priority": 2,
+        "priority": 7,
         "schematic_color": "rgb(180, 119, 17)",
         "track_width": 0.17,
         "via_diameter": 0.4,
@@ -530,7 +560,7 @@
         "microvia_drill": 0.1,
         "name": "FIFO_DQ",
         "pcb_color": "rgb(205, 200, 61)",
-        "priority": 3,
+        "priority": 8,
         "schematic_color": "rgb(205, 200, 61)",
         "track_width": 0.17,
         "via_diameter": 0.4,
@@ -540,7 +570,7 @@
       {
         "name": "JTAG",
         "pcb_color": "rgb(69, 92, 135)",
-        "priority": 0,
+        "priority": 5,
         "schematic_color": "rgb(69, 92, 135)"
       },
       {
@@ -553,7 +583,7 @@
         "microvia_drill": 0.1,
         "name": "SPI",
         "pcb_color": "rgb(255, 229, 191)",
-        "priority": 4,
+        "priority": 9,
         "schematic_color": "rgb(255, 229, 191)",
         "track_width": 0.17,
         "via_diameter": 0.4,
@@ -570,7 +600,7 @@
         "microvia_drill": 0.1,
         "name": "byte_0",
         "pcb_color": "rgb(193, 133, 110)",
-        "priority": 5,
+        "priority": 10,
         "schematic_color": "rgb(193, 133, 110)",
         "track_width": 0.17,
         "via_diameter": 0.4,
@@ -587,7 +617,7 @@
         "microvia_drill": 0.1,
         "name": "byte_1",
         "pcb_color": "rgb(97, 213, 83)",
-        "priority": 6,
+        "priority": 11,
         "schematic_color": "rgb(154, 205, 119)",
         "track_width": 0.17,
         "via_diameter": 0.4,
@@ -604,7 +634,7 @@
         "microvia_drill": 0.1,
         "name": "byte_2",
         "pcb_color": "rgb(112, 196, 193)",
-        "priority": 7,
+        "priority": 12,
         "schematic_color": "rgb(112, 196, 193)",
         "track_width": 0.17,
         "via_diameter": 0.4,
@@ -621,7 +651,7 @@
         "microvia_drill": 0.1,
         "name": "byte_3",
         "pcb_color": "rgb(130, 131, 205)",
-        "priority": 8,
+        "priority": 13,
         "schematic_color": "rgb(130, 131, 205)",
         "track_width": 0.17,
         "via_diameter": 0.4,
@@ -638,7 +668,7 @@
         "microvia_drill": 0.1,
         "name": "byte_4",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 14,
         "schematic_color": "rgb(205, 56, 30)",
         "track_width": 0.17,
         "via_diameter": 0.4,
@@ -655,7 +685,7 @@
         "microvia_drill": 0.1,
         "name": "byte_5",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 15,
         "schematic_color": "rgb(205, 76, 154)",
         "track_width": 0.17,
         "via_diameter": 0.4,
@@ -672,7 +702,7 @@
         "microvia_drill": 0.1,
         "name": "byte_6",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 16,
         "schematic_color": "rgb(96, 69, 130)",
         "track_width": 0.17,
         "via_diameter": 0.4,
@@ -689,7 +719,7 @@
         "microvia_drill": 0.1,
         "name": "byte_7",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 17,
         "schematic_color": "rgb(21, 130, 87)",
         "track_width": 0.17,
         "via_diameter": 0.4,
@@ -820,8 +850,28 @@
         "pattern": "SPI*"
       },
       {
-        "netclass": "Default",
+        "netclass": "JTAG",
         "pattern": "JTAG*"
+      },
+      {
+        "netclass": "1v1",
+        "pattern": "1v1"
+      },
+      {
+        "netclass": "1v2",
+        "pattern": "1v2"
+      },
+      {
+        "netclass": "1v35",
+        "pattern": "1v35"
+      },
+      {
+        "netclass": "2v5",
+        "pattern": "2v5"
+      },
+      {
+        "netclass": "3v3",
+        "pattern": "3v3"
       }
     ]
   },
