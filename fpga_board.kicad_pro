@@ -515,7 +515,7 @@
       },
       {
         "name": "3v3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(164, 255, 149)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
