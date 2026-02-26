@@ -6,3 +6,4 @@ fpga_board-backups/
 _autosave*
 *.swp
 *.blend1
+.kiri
