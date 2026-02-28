@@ -18875,6 +18875,16 @@
 	)
 	(wire
 		(pts
+			(xy 697.23 367.03) (xy 708.66 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12bad5b8-bbd0-4e85-ba85-0ab5b631c6ff")
+	)
+	(wire
+		(pts
 			(xy 781.05 453.39) (xy 781.05 455.93)
 		)
 		(stroke
@@ -19582,6 +19592,16 @@
 			(type default)
 		)
 		(uuid "25a20d35-ddd9-4485-9b00-c9ea8514d2e0")
+	)
+	(wire
+		(pts
+			(xy 702.31 356.87) (xy 708.66 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b7b4bd-cc82-402d-ac2c-ea9884bff003")
 	)
 	(wire
 		(pts
@@ -20542,6 +20562,16 @@
 			(type default)
 		)
 		(uuid "3d80072f-a81f-41df-8a05-0e19a2018aaa")
+	)
+	(wire
+		(pts
+			(xy 702.31 356.87) (xy 702.31 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dda0e0a-2201-41fd-b3aa-fcbcffe5ae79")
 	)
 	(wire
 		(pts
@@ -26645,7 +26675,7 @@
 	)
 	(wire
 		(pts
-			(xy 697.23 356.87) (xy 697.23 342.9)
+			(xy 697.23 342.9) (xy 697.23 367.03)
 		)
 		(stroke
 			(width 0)
@@ -27275,16 +27305,6 @@
 	)
 	(wire
 		(pts
-			(xy 708.66 367.03) (xy 707.39 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbbb96a5-cadf-4c44-b466-74d320d39602")
-	)
-	(wire
-		(pts
 			(xy 138.43 435.61) (xy 140.97 435.61)
 		)
 		(stroke
@@ -27422,16 +27442,6 @@
 			(type default)
 		)
 		(uuid "df6450e5-ef3c-491c-91e8-ce39c3e765de")
-	)
-	(wire
-		(pts
-			(xy 707.39 367.03) (xy 707.39 381)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df89ca09-629a-4d7d-8195-f492188045c9")
 	)
 	(wire
 		(pts
@@ -27855,16 +27865,6 @@
 	)
 	(wire
 		(pts
-			(xy 708.66 356.87) (xy 697.23 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebce8cd8-80fc-4cf7-be54-ba6dee24d6bc")
-	)
-	(wire
-		(pts
 			(xy 170.18 384.81) (xy 175.26 384.81)
 		)
 		(stroke
@@ -27915,7 +27915,7 @@
 	)
 	(wire
 		(pts
-			(xy 707.39 381) (xy 693.42 381)
+			(xy 702.31 381) (xy 693.42 381)
 		)
 		(stroke
 			(width 0)
@@ -30724,7 +30724,7 @@
 		(uuid "bb632847-62c7-4e58-9c70-08e041b3dbc9")
 	)
 	(label "GPIO25"
-		(at 665.48 347.98 0)
+		(at 665.48 386.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -30764,7 +30764,7 @@
 		(uuid "bd3c1c22-bcfd-42c7-82ee-6b1b674a1bbc")
 	)
 	(label "GPIO27"
-		(at 665.48 386.08 0)
+		(at 665.48 347.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
