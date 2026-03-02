@@ -15600,10 +15600,6 @@
 		(uuid "6bcdc72d-84e5-4032-8d7a-0c9d0a3b427f")
 	)
 	(no_connect
-		(at 678.18 139.7)
-		(uuid "6bf2fa07-e346-4751-8949-27bcad372369")
-	)
-	(no_connect
 		(at 527.05 104.14)
 		(uuid "6e6682e0-7d0d-4ff6-9f0e-4b999a5a217d")
 	)
@@ -15646,6 +15642,10 @@
 	(no_connect
 		(at 567.69 217.17)
 		(uuid "94ddb607-622b-4464-904f-8aa03511a872")
+	)
+	(no_connect
+		(at 666.75 139.7)
+		(uuid "985c43c7-939b-4acf-80f2-4af550c4aa95")
 	)
 	(no_connect
 		(at 527.05 137.16)
@@ -23327,6 +23327,16 @@
 			(type default)
 		)
 		(uuid "772020f0-8f34-48b6-b9b3-c9c23da43156")
+	)
+	(wire
+		(pts
+			(xy 674.37 139.7) (xy 678.18 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77462f42-5c98-43ee-944a-fc6b2169d9dd")
 	)
 	(bus
 		(pts
@@ -46042,7 +46052,7 @@
 		(dnp no)
 		(uuid "6b8bd636-a9b9-48b7-836c-856221ab46f6")
 		(property "Reference" "R3"
-			(at 664.972 137.668 90)
+			(at 674.878 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46050,7 +46060,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 664.972 135.636 90)
+			(at 677.926 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56866,7 +56876,7 @@
 		(dnp no)
 		(uuid "c5c40deb-0988-42be-85b4-1e741f9276ed")
 		(property "Reference" "R4"
-			(at 669.29 139.446 90)
+			(at 674.878 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56874,7 +56884,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 672.338 139.446 90)
+			(at 677.926 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62492,6 +62502,73 @@
 			(project "fpga_board"
 				(path "/5c9167d7-9fb7-40fb-893a-3a7eaf125f07"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 670.56 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f87e6e62-76b5-4788-aa88-1407b2c4cd0c")
+		(property "Reference" "R5"
+			(at 674.878 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 677.926 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 670.56 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106231.pdf"
+			(at 670.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 670.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd33675c-3c53-4475-9605-e106fd45d08f")
+		)
+		(pin "1"
+			(uuid "da2fce00-230f-4981-85cb-22371a6d6960")
+		)
+		(instances
+			(project "fpga_board"
+				(path "/5c9167d7-9fb7-40fb-893a-3a7eaf125f07"
+					(reference "R5")
 					(unit 1)
 				)
 			)
