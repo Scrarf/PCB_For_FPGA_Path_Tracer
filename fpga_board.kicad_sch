@@ -13960,7 +13960,7 @@
 		(uuid "3788fa02-8673-4d58-95d0-4d5b4919ea2f")
 	)
 	(junction
-		(at 521.97 185.42)
+		(at 508 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38279406-cd9f-4620-8c38-d0409a0bb10b")
@@ -14678,6 +14678,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "949d8e28-f4a2-420c-93ca-74c0ab20b919")
+	)
+	(junction
+		(at 515.62 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94dcd71c-18e8-48c0-bd31-e31cf1b4c2f1")
 	)
 	(junction
 		(at 99.06 113.03)
@@ -19500,7 +19506,7 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 185.42) (xy 525.78 185.42)
+			(xy 508 185.42) (xy 515.62 185.42)
 		)
 		(stroke
 			(width 0)
@@ -25360,7 +25366,7 @@
 	)
 	(wire
 		(pts
-			(xy 514.35 185.42) (xy 521.97 185.42)
+			(xy 500.38 185.42) (xy 508 185.42)
 		)
 		(stroke
 			(width 0)
@@ -26607,6 +26613,16 @@
 			(type default)
 		)
 		(uuid "bd9e8890-989a-4a33-91f1-ebbe7c0cbcf6")
+	)
+	(wire
+		(pts
+			(xy 515.62 185.42) (xy 519.43 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdab042d-ae0b-45f7-8f6c-c4fc9208873a")
 	)
 	(wire
 		(pts
@@ -35088,7 +35104,7 @@
 	)
 	(global_label "5v_VBUS"
 		(shape input)
-		(at 525.78 185.42 0)
+		(at 519.43 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -35098,7 +35114,7 @@
 		)
 		(uuid "fecb32a8-d2c0-468d-be48-b27abd786cf5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 536.8085 185.42 0)
+			(at 530.4585 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39164,6 +39180,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 515.62 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2af1a647-d5ae-485a-a401-ba44fc696d4f")
+		(property "Reference" "C114"
+			(at 509.778 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100μF"
+			(at 509.778 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+			(at 516.5852 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2887276.pdf"
+			(at 515.62 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 515.62 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d71e9781-0915-4168-b7a7-95500bc428ed")
+		)
+		(pin "2"
+			(uuid "cb660cd1-236b-4579-aee9-2eaffa745cdb")
+		)
+		(instances
+			(project "fpga_board"
+				(path "/5c9167d7-9fb7-40fb-893a-3a7eaf125f07"
+					(reference "C114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 732.79 453.39 0)
 		(unit 1)
@@ -40125,7 +40210,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 521.97 189.23 0)
+		(at 508 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40133,7 +40218,7 @@
 		(dnp no)
 		(uuid "39cdd708-b533-43e1-ad0d-0e127880fab3")
 		(property "Reference" "C88"
-			(at 516.128 186.944 0)
+			(at 502.158 186.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40142,7 +40227,7 @@
 			)
 		)
 		(property "Value" "100μF"
-			(at 516.128 191.77 0)
+			(at 502.158 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40151,7 +40236,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
-			(at 522.9352 193.04 0)
+			(at 508.9652 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40160,7 +40245,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2887276.pdf"
-			(at 521.97 189.23 0)
+			(at 508 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40169,7 +40254,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 521.97 189.23 0)
+			(at 508 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40261,7 +40346,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 521.97 193.04 0)
+		(at 508 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40270,7 +40355,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bfd87bc-17b3-4865-8015-a452c66c3927")
 		(property "Reference" "#PWR0112"
-			(at 521.97 199.39 0)
+			(at 508 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40279,7 +40364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 521.97 198.12 0)
+			(at 508 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40287,7 +40372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 521.97 193.04 0)
+			(at 508 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40296,7 +40381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 521.97 193.04 0)
+			(at 508 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40305,7 +40390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 521.97 193.04 0)
+			(at 508 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44818,7 +44903,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 514.35 189.23 0)
+		(at 500.38 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44826,7 +44911,7 @@
 		(dnp no)
 		(uuid "60a731ca-34f1-4201-9d56-1ef3e80b5b16")
 		(property "Reference" "C87"
-			(at 509.016 186.944 0)
+			(at 495.046 186.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44835,7 +44920,7 @@
 			)
 		)
 		(property "Value" "100μF"
-			(at 507.746 191.516 0)
+			(at 493.776 191.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44844,7 +44929,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
-			(at 515.3152 193.04 0)
+			(at 501.3452 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44853,7 +44938,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2887276.pdf"
-			(at 514.35 189.23 0)
+			(at 500.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44862,7 +44947,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 514.35 189.23 0)
+			(at 500.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48106,6 +48191,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 515.62 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78d52bf1-0694-4769-8c96-6a281ab87853")
+		(property "Reference" "#PWR044"
+			(at 515.62 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 515.62 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 515.62 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 515.62 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 515.62 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85fd7f50-b8e2-4b77-b56e-abdf0ba2aadc")
+		)
+		(instances
+			(project "fpga_board"
+				(path "/5c9167d7-9fb7-40fb-893a-3a7eaf125f07"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 144.78 440.69 90)
 		(unit 1)
@@ -51122,7 +51273,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 514.35 193.04 0)
+		(at 500.38 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51131,7 +51282,7 @@
 		(fields_autoplaced yes)
 		(uuid "9464c79e-7e3a-4ca4-9cec-d4817ece0feb")
 		(property "Reference" "#PWR091"
-			(at 514.35 199.39 0)
+			(at 500.38 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51140,7 +51291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 514.35 198.12 0)
+			(at 500.38 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51148,7 +51299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 514.35 193.04 0)
+			(at 500.38 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51157,7 +51308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 514.35 193.04 0)
+			(at 500.38 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51166,7 +51317,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 514.35 193.04 0)
+			(at 500.38 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
