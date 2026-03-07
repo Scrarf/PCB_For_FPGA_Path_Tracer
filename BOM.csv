@@ -4,7 +4,7 @@
 "C8,C9,C11,C18,C19,C22,C23,C26,C61,C89,C90","0.01µF","https://www.lcsc.com/datasheet/C22435944.pdf","11","C22435944","Capacitor_SMD:C_0402_1005Metric","",""
 "C15,C29,C31,C33,C35,C37,C63","4.7µF","https://www.lcsc.com/datasheet/C6119786.pdf","7","C6119786","Capacitor_SMD:C_0402_1005Metric","",""
 "C27,C28","15pF","https://www.lcsc.com/datasheet/C5448865.pdf","2","C5448865","Capacitor_SMD:C_0402_1005Metric","",""
-"C30,C32,C34,C36,C64","10µF","https://www.lcsc.com/datasheet/C6119814.pdf","5","C6119814","Capacitor_SMD:C_0603_1608Metric","",""
+"C30,C32,C34,C36,C64","47µF","https://www.lcsc.com/datasheet/C19103846.pdf","5","C19103846","Capacitor_SMD:C_0805_2012Metric","",""
 "C73,C74,C75,C76,C86","10µF","https://www.lcsc.com/datasheet/C315248.pdf","5","C315248","Capacitor_SMD:C_0402_1005Metric","",""
 "C87,C88,C114","100μF","https://www.lcsc.com/datasheet/C2887276.pdf","3","C2887276","Capacitor_SMD:CP_Elec_6.3x5.4","",""
 "D1,D2","LED_RGBA","https://www.lcsc.com/datasheet/C22461780.pdf","2","C22461780","LED_SMD:LED_Wurth_150044M155260","",""

@@ -35560,7 +35560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "47µF"
 			(at 113.03 189.2299 0)
 			(effects
 				(font
@@ -35569,7 +35569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.1852 191.77 0)
 			(effects
 				(font
@@ -35578,7 +35578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C6119814.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19103846.pdf"
 			(at 109.22 187.96 0)
 			(effects
 				(font
@@ -35605,7 +35605,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C6119814"
+		(property "LCSC Part" "C19103846"
 			(at 109.22 187.96 0)
 			(effects
 				(font
@@ -37245,7 +37245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "47µF"
 			(at 113.03 283.2099 0)
 			(effects
 				(font
@@ -37254,7 +37254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.1852 285.75 0)
 			(effects
 				(font
@@ -37263,7 +37263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C6119814.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19103846.pdf"
 			(at 109.22 281.94 0)
 			(effects
 				(font
@@ -37290,7 +37290,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C6119814"
+		(property "LCSC Part" "C19103846"
 			(at 109.22 281.94 0)
 			(effects
 				(font
@@ -37550,7 +37550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "47µF"
 			(at 113.03 236.2199 0)
 			(effects
 				(font
@@ -37559,7 +37559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.1852 238.76 0)
 			(effects
 				(font
@@ -37568,7 +37568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C6119814.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19103846.pdf"
 			(at 109.22 234.95 0)
 			(effects
 				(font
@@ -37595,7 +37595,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C6119814"
+		(property "LCSC Part" "C19103846"
 			(at 109.22 234.95 0)
 			(effects
 				(font
@@ -40579,7 +40579,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "47µF"
 			(at 113.03 151.1299 0)
 			(effects
 				(font
@@ -40588,7 +40588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.1852 153.67 0)
 			(effects
 				(font
@@ -40597,7 +40597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C6119814.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19103846.pdf"
 			(at 109.22 149.86 0)
 			(effects
 				(font
@@ -40624,7 +40624,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C6119814"
+		(property "LCSC Part" "C19103846"
 			(at 109.22 149.86 0)
 			(effects
 				(font
@@ -63833,7 +63833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "47µF"
 			(at 114.3 110.4899 0)
 			(effects
 				(font
@@ -63842,7 +63842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.4552 113.03 0)
 			(effects
 				(font
@@ -63851,7 +63851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C6119814.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19103846.pdf"
 			(at 110.49 109.22 0)
 			(effects
 				(font
@@ -63878,7 +63878,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C6119814"
+		(property "LCSC Part" "C19103846"
 			(at 110.49 109.22 0)
 			(effects
 				(font
