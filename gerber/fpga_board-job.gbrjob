@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.7"
     },
-    "CreationDate": "2026-03-03T12:26:19+04:00"
+    "CreationDate": "2026-03-07T14:05:11+04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -81,6 +81,16 @@
     {
       "Path": "fpga_board-B_Cu.gbr",
       "FileFunction": "Copper,L8,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "fpga_board-F_Adhesive.gbr",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "fpga_board-B_Adhesive.gbr",
+      "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
